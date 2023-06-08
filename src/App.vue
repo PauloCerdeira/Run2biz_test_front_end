@@ -150,7 +150,6 @@ export default {
           params: { commands: this.commands },
         })
       ).data;
-      console.log(this.CalcAddressReturn);
     },
     historyColoring(step) {
       if (step.value == "Skipped") {
